@@ -1,0 +1,30 @@
+{
+  "name": "rough-unit-2a90",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "nameless-night-26f9-d1",
+      "database_id": "c401a7cb-de6b-4101-bda4-623b166a7b68"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "rough-unit-2a90-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
